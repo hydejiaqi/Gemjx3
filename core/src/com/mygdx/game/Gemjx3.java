@@ -15,7 +15,7 @@ public class Gemjx3 extends Game {
 	@Override
 	public void create () {
 		batch = new SpriteBatch();
-		setScreen(new PlayScreen());
+		setScreen(new PlayScreen(this));
 	}
 
 	@Override
